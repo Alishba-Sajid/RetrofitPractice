@@ -35,6 +35,8 @@ hilt-android = { group = "com.google.dagger", name = "hilt-android", version.ref
 
 hilt-compiler = { group = "com.google.dagger", name = "hilt-compiler", version.ref = "hilt" }
 
+androidx-activity-ktx = { group = "androidx.activity", name = "activity-ktx", version = "1.12.0" }
+
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
